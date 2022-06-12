@@ -8,6 +8,7 @@ import NoMatch from './components/NoMatch';
 import About from './pages/About';
 import Blog from './pages/Blog';
 import Careers from './pages/Careers';
+import CaseStudies from './pages/CaseStudies';
 import Contact from './pages/Contact';
 import Main from './pages/Main';
 import Services from './pages/Services';
@@ -23,7 +24,7 @@ function App() {
             <Route path="/" element={<Main />}/>
             <Route path="/services" element={<Services />}/>
             <Route path="/about" element={<About />}/>
-            <Route path="/case-studies" element={<Services />}/>
+            <Route path="/case-studies" element={<CaseStudies />}/>
             <Route path="/blog" element={<Blog />}/>
             <Route path="/careers" element={<Careers /> }/>
             <Route path="/contact" element={<Contact />}/>

@@ -1,0 +1,23 @@
+/* main.case body {
+    font-family: Helvetica, sans-serif !important;
+    font-size: 14px;
+    background: darkgray;
+  } */
+  main.case .case-a {
+    /* border: 1px solid red; */
+    text-align: left;
+    /* max-width: 600px; */
+    /* max-width: 50%; */
+    width: 90%;
+    padding: 40px;
+    background: white;
+    /* box-shadow: 0 0 10px gray; */
+    margin: 20px auto;
+    
+   
+  } 
+  main.case .case-a h2 {
+      font-size: 2em;
+      text-align: center;
+      margin: 0.3em 0 1.5em;
+    }
