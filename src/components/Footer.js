@@ -12,19 +12,19 @@ const Footer = () => {
           <span>Socialize with us:</span>
         </div>
         <div>
-          <a href="" className="me-4 text-reset">
+          <a href="https://www.facebook.com/" className="me-4 text-reset">
             <i className="fab fa-facebook-f"></i>
           </a>
-          <a href="" className="me-4 text-reset">
+          <a href="https://twitter.com" className="me-4 text-reset">
             <i className="fab fa-twitter"></i>
           </a>
           {/* <a href='' className='me-4 text-reset'>
               <i className='fab fa-google'></i>
             </a> */}
-          <a href="" className="me-4 text-reset">
+          <a href="https://www.instagram.com" className="me-4 text-reset">
             <i className="fab fa-instagram"></i>
           </a>
-          <a href="" className="me-4 text-reset">
+          <a href="https://www.linkedin.com" className="me-4 text-reset">
             <i className="fab fa-linkedin"></i>
           </a>
           {/* <a href='' className='me-4 text-reset'>
@@ -53,17 +53,17 @@ const Footer = () => {
             <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4"> Site Menu </h6>
               <p>
-                <a href="#!" className="text-reset">
+                <a href="/about" className="text-reset">
                   About us
                 </a>
               </p>
               <p>
-                <a href="#!" className="text-reset">
+                <a href="/blog" className="text-reset">
                   The Blog
                 </a>
               </p>
               <p>
-                <a href="#!" className="text-reset">
+                <a href="/case-studies" className="text-reset">
                   Our Projects
                 </a>
               </p>
