@@ -1,0 +1,100 @@
+html,
+body {
+  margin: 0;
+}
+
+/* mobile first */
+.side-bar .bm-item {
+    display: flex;
+    /* color: white ; */
+    /* Our sidebar item styling */
+    text-decoration: none;
+    margin-bottom: 15px;
+    transition: color 0.2s;
+    letter-spacing: 5px;
+    font-weight: bold;
+    width: max-content;
+}
+.bm-item  a {
+    color: goldenrod;
+}
+
+.side-bar .bm-item a:hover {
+  color: white ;
+  text-shadow: 0 0 5px  goldenrod;
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 40px;
+  right: 17%;
+  top: 30px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: goldenrod;
+}
+
+/* Position and sizing of clickable cross button */
+.side-bar .bm-cross-button {
+  height: max-content;
+  width: max-content;
+  /* width: 24px; */
+  /* old one */
+}
+
+/* Color/shape of close button cross */
+.side-bar .bm-cross {
+  background: #fff;
+}
+
+/* General sidebar styles */
+.side-bar .bm-menu {
+  background: rgb(139, 0, 0);
+  /* padding: 2.5em 1.5em 0; */
+  margin: 14% 0; 
+  /* hereeeeeeeeeeeeeeeeeeeeeeeee side bar runter */
+  font-size: 1.15em;
+}
+
+/* Wrapper for item list (Sidebar list items) */
+.side-bar .bm-item-list {
+  color: #b8b7ad ; 
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+.side-bar .menu-item {
+    /* here das ul li stylen */
+  padding: 1rem;
+  font-size: 1.15rem;
+  
+  
+}
+
+/* Styling of overlay */
+.bm-overlay {
+    display: none;
+  background: rgba(139, 0, 0, 0.51) !important;
+  margin: 0;
+}
+/* desktop version */
+@media (min-width: 640px) {
+  #menu-div {
+      display: none;
+  }
+
+  /* .navbar li > a {
+    color: black !important;
+  } */
+
+} 
+/* .navbar li > a {
+  color: white;
+} */
+/* das auskommentierte muss in der navbar stehen */

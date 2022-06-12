@@ -1,0 +1,41 @@
+nav.desktop-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 4rem;
+}
+nav.desktop-nav > * {
+    color: #0f1836;
+    text-decoration: none;
+    /* border: 2px solid darkred ;
+    border-radius: 20px 0 ; */
+
+    padding: .5em 1em ;
+
+    border: 5px inset #c31432;
+    border-radius: 40px 0px 40px 0px;
+
+    width: 150px;
+
+}
+nav.desktop-nav > * {
+    color: goldenrod;
+}
+nav.desktop-nav > *:hover {
+    color: white;
+    background-color: goldenrod;
+    border: none;
+    font-weight: bold;
+}
+/* PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP */
+@media screen and (max-width: 640px) {
+    nav.desktop-nav {
+        display: none;
+    }
+    nav.desktop-nav > * {
+        /* width: max-content; */
+        /* border: none; */
+    }
+  
+    
+}

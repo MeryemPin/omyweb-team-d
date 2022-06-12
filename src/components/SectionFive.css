@@ -1,0 +1,110 @@
+.section-5 {
+    /* border: 1px solid red; */
+    margin-top: 10%;
+    padding: 1% 5%;
+    
+}
+.section-5 .sec-5-title {
+    /* border: 1px solid red; */
+    padding: .5%;
+}
+.section-5 .sec-5-title h2 {
+    text-transform: uppercase;
+    color: goldenrod;
+}
+.section-5 .sec-5-title p {
+    color: rgba(139, 0, 0, 0.767);
+    font-weight: bold;
+    /* text-transform: uppercase; */
+    font-style: italic;
+}
+.section-5 .div-points-img {
+    /* border: 1px solid red; */
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+}
+.section-5 .div-points-img .points-container {
+    margin-top: 5px;
+    /* border: 1px solid red; */
+    width: 56%;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    /* gap: .1em; */
+    /* box-shadow: 2px 3px 15px black; */
+}
+.section-5 .div-points-img .points {
+    box-shadow: 2px 3px 15px black;
+    margin: 1%;
+    padding: 2%;
+    /* border: 1px solid red; */
+
+    justify-content: flex-start;
+    align-items: baseline;
+
+    text-align: left;
+    width: 47%;
+    height: 30%;
+}
+.section-5 .div-points-img .img-shine {
+    width: 30%;
+}
+.section-5 .div-points-img .img-shine >  img {
+    margin: 10%;
+    width: 750px;
+    height: 540px;
+    border-radius: 50%;
+}
+@media screen and (max-width: 640px) {
+    .section-5 {
+        margin-top: 15%;
+        margin: 50% 0 ;
+    }
+    .section-5 .div-points-img {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid red; */
+    }
+    .section-5 .div-points-img .points-container {
+        /* margin-top: 5px; */
+        /* border: 1px solid red; */
+        width: 100%;
+        height: 100%;
+        display: flex;
+        /* flex-direction: column; */
+        /* justify-content: space-between; */
+        /* justify-content: center; */
+        /* flex-wrap: no-wrap; */
+        /* gap: .1em; */
+        /* box-shadow: 2px 3px 15px black; */
+    }
+    .section-5 .div-points-img .points {
+        box-shadow: 2px 3px 15px black;
+        margin: 1%;
+        padding: 2%;
+        /* border: 1px solid red; */
+        
+        /* justify-content: flex-start; */
+        /* align-items: baseline; */
+        
+        text-align: left;
+        width: 98%;
+        height: 16%;
+    }
+    .section-5 .div-points-img .img-shine {
+        width: 100%;
+    }
+    .section-5 .div-points-img .img-shine >  img {
+        /* border: 1px solid red; */
+        margin: 10%;
+        width: 350px;
+        height: 270px;
+        border-radius: 50%;
+    }
+}

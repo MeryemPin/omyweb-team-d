@@ -1,0 +1,88 @@
+.testimonials {
+    width: 100%;
+    height: 100%;
+
+    margin-top: 10% ;
+
+
+}
+.testimonials h2 {
+    text-transform: uppercase;
+    color: goldenrod;
+    margin: 5% ;
+}
+.testimonials div.feedback {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* gap: 2rem; */
+    /* gap: 2rem; */
+
+    justify-content: space-around;
+    /* align-items: baseline; */
+}
+.testimonials div.feedback figure {
+    /* border: 1px solid red; */
+    width: 40%;
+}
+.testimonials div.feedback figure .video {
+    margin: 2% 0;
+    /* width: 60%; */
+    /* height: 100%; */
+    
+    width: 650px;
+    width: 550px;
+    height: 350px;
+    /* border-radius: 50%; */
+    
+    box-shadow: 2px 3px 10px black;
+}
+.testimonials div.feedback figure figcaption{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 25%;
+    padding: 4% ;
+    margin: 3% 0 0 0;
+
+    box-shadow: 2px 3px 10px black;
+
+    border-radius: 0 20px;
+
+
+
+
+}
+
+@media screen and (max-width: 640px) {
+    .testimonials div.feedback {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        /* gap: 2rem; */
+        gap: 2rem;
+    
+        justify-content: space-around;
+        /* align-items: baseline; */
+    }
+    .testimonials div.feedback figure {
+        /* border: 1px solid red; */
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .testimonials div.feedback figure .video {
+        margin: 2% 0;
+        /* width: 60%; */
+        /* height: 100%; */
+        
+        /* width: 250px; */
+        width: 320px;
+        height: 190px;
+        /* border-radius: 50%; */
+        
+        box-shadow: 2px 3px 10px black;
+    }
+}

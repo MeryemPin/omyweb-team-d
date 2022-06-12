@@ -1,0 +1,193 @@
+/* main component */
+main.home {
+    /* border: 1px solid red; */
+    /* background-color: rgba(207, 191, 223, 0.356); */
+    /* box-shadow: 5px 10px 5px lightblue; */
+    width: 100vw;
+    height: 100%;
+
+    margin: 0 auto;
+    padding: 5% 3%;
+
+}
+main.home section {
+    /* height: 90vh; */
+    /* width: 90vw; */
+}
+/* Welcome section in main */
+main.home .welcome-section {
+
+    width: 100%;
+    height: 100vh;
+
+    margin:0 0 10% 0;
+    padding: 5% 0;
+
+    background-image: url("../../public/omyweb.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+main.home .welcome-section h2 {
+    width: 100%;
+    /* margin: 5%; */
+    padding: 0 5%;
+    color: white;
+}
+main.home .welcome-section .wel-div-btn{
+    position: absolute;
+    bottom: 15%;
+
+    width: 100%;
+
+    /* margin: 5%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+main.home .welcome-section .wel-btn {
+    color: white;
+    text-decoration: none;
+    background-color: rgba(254, 254, 254, 0.847);
+    color: #fa1e24;
+    padding: 2em 2em;
+
+    border-radius: 20em 10em;
+    text-transform: capitalize;
+    box-shadow: 5px 5px 10px black;
+    font-weight: 900;
+    font-size: 1.5em;
+}
+main.home .welcome-section .wel-btn2 {
+    background-color: rgba(250,30,36,255);
+    color: white;
+}
+
+
+/* main section 2 about */
+main.home .about {
+    /* margin: 10%; */
+    padding: 2% 2%;
+    /* width: 100%; */
+    height: 90vh;
+    /* background-color: #E3B32B; */
+    /* border: 1px solid red; */
+
+}
+main.home .about h2 {
+    color: goldenrod;
+    margin: 0 0 2% 0;
+    /* padding: 0; */
+}
+main.home .about .about-text-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* align-items: baseline; */
+
+}
+main.home .about .about-text {
+    width: 40%;
+    text-align: left;
+    font-size: 1.3em;
+
+}
+main.home .about .about-text a {
+    color: goldenrod;
+}
+main.home .about .about-text .omyweb-text {
+    font-style: italic;
+    margin: 10px 0;
+    /* color: #fa1e24; */
+    font-weight: bold;
+    font-size: 1.5em;
+}
+main.home .about .about-text> p::after {
+    content: ">>";
+    color: goldenrod;
+}
+main.home .about .about-img {
+    width: 50%;
+    height: 60vh;
+    border: 20px 0;
+    background-color: aqua;
+    border: 20px 0;
+    border-radius: 20% 0;
+}
+
+
+/* section case studies caroussel */
+section.case-studies {
+    margin: 2% 5%;
+    padding: 2% ;
+
+    box-shadow: 0 0 15px black;
+}
+section.case-studies h2 {
+    /* border: 1px solid red; */
+    /* margin: 5% 0 0% 0; */
+    color: goldenrod;
+    padding: 1% 0;
+    text-transform: uppercase;
+    
+}
+section.case-studies img {
+    width: 100%;
+    height: 100%;
+
+    /* position: fixed;
+    top: 0; */
+}
+/* section.case-studies .karussel-frame {
+    background-color: black;
+} */
+
+@media screen and (max-width: 640px) {
+
+    main.home .welcome-section {
+        margin: 30% auto;
+        /* width: 100vw; */
+        height: 50vh;
+        /* background-size: contain; */
+        
+    }
+    main.home .welcome-section .wel-div-btn {
+        bottom: -1%;
+    }
+    main.home .welcome-section .wel-btn {
+        padding: 3%;
+    }
+    main.home .about {
+        /* choooooooose space between sections */
+        margin: 14% 0;
+        margin: 50% 0;
+        
+        width: 100%;
+        height: 100%;
+        
+        /* display: flex;
+        flex-direction: column;
+        justify-content: space-evenly; */
+    }
+    main.home .about .about-text-img {
+        flex-direction: column;
+        gap: 1em;
+    }
+    main.home .about .about-text {
+        width: 100%;
+        text-align: center;
+        font-size: 1.3em;
+        
+    } 
+    main.home .about .about-img {
+        margin: 0 auto;
+        width: 80vw;
+        height: 30vh;
+        box-shadow: 0 0 5px 2px grey;
+        /* border: 1px solid red; */
+    }
+}

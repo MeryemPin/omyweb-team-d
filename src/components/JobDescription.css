@@ -1,0 +1,27 @@
+.job-describ body {
+    font-family: Helvetica, sans-serif !important;
+    font-size: 14px;
+    background: darkgray;
+  }
+  .job-describ .job {
+    /* border: 1px solid red; */
+    text-align: left;
+    /* max-width: 600px; */
+    /* max-width: 50%; */
+    width: 90%;
+    padding: 40px;
+    background: white;
+    /* box-shadow: 0 0 10px gray; */
+    margin: 20px auto;
+    
+   
+  } 
+  .job-describ .job h1 {
+      font-size: 2em;
+      text-align: center;
+      /* margin: 0.5em 0 1.5em; */
+    }
+
+    .job-describ .job h2 {
+      font-size: 1.5em;
+    }
