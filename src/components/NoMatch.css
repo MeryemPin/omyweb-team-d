@@ -1,0 +1,12 @@
+.no-match {
+    background-color: goldenrod;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.no-match h1 {
+    color: white;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

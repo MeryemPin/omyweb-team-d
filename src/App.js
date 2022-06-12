@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import JobApplication from './components/JobApplication';
+import NoMatch from './components/NoMatch';
 // import Landing from './components/Landing';
 import About from './pages/About';
 import Blog from './pages/Blog';
@@ -27,6 +27,7 @@ function App() {
             <Route path="/blog" element={<Blog />}/>
             <Route path="/careers" element={<Careers /> }/>
             <Route path="/contact" element={<Contact />}/>
+            <Route path='*' element={<NoMatch />}/>
         </Routes>
 
         <Footer />
